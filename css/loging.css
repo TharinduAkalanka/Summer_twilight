@@ -1,0 +1,103 @@
+	.martop50 {
+		margin-top: 50px;
+	}
+
+	.login-content, .login .login-content {
+		padding: 25px 30px;
+		-webkit-border-radius: 0 0 8px 8px;
+		-moz-border-radius: 0 0 8px 8px;
+		-ms-border-radius: 0 0 8px 8px;
+		border-radius: 0 0 8px 8px;
+		background: #101113;
+		box-shadow: 0 2px 0 #000;
+	}
+
+	h4{
+		color: rgba(248,151,29,0.77);
+	}
+	.form-input-flat .input-group-addon.left {
+		background: #30373e;
+		border: 2px solid #8f8f8f;
+		color: #bbb;
+		border-right: none;
+		-webkit-border-radius: 50% 0 0 50%;
+		-moz-border-radius: 50% 0 0 50%;
+		-ms-border-radius: 50% 0 0 50%;
+		border-radius: 50% 0 0 50%;
+		padding: 8px 10px 5px 13px;
+	}
+	.form-input-flat .input-group-addon {
+		background: #30373e;
+		border: 2px solid #8f8f8f;
+		color: #bbb;
+		border-left: none;
+		-webkit-border-radius: 0 50% 50% 0;
+		-moz-border-radius: 0 50% 50% 0;
+		-ms-border-radius: 0 50% 50% 0;
+		border-radius: 0 50% 50% 0;
+		padding: 0 13px 0 10px;
+	}
+
+	.input-group .form-control:not(:first-child):not(:last-child), .input-group-addon:not(:first-child):not(:last-child), .input-group-btn:not(:first-child):not(:last-child) {
+		border-radius: 0 34px 34px 0;
+	}
+
+	.form-control {
+		border-width: 2px;
+		border-color: #8f8f8f;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		color: #bbb;
+		-webkit-border-radius: 34px;
+		-moz-border-radius: 34px;
+		-ms-border-radius: 34px;
+		border-radius: 34px;
+		background: #211E1E;
+	}
+
+	.float-labels label  {
+		font-size: 15px;
+		line-height: 18px;
+		font-weight: 500;
+		position: absolute;
+		z-index: 2;
+		left: 65px;
+		top: 35px;
+		padding: 0 2px;
+		pointer-events: none;
+		background: transparent;
+		-webkit-transition: -webkit-transform 100ms ease;
+		-moz-transition: -moz-transform 100ms ease;
+		-o-transition: -o-transform 100ms ease;
+		-ms-transition: -ms-transform 100ms ease;
+		transition: transform 100ms ease;
+		-webkit-transform: translateY(-20px);
+		-moz-transform: translateY(-20px);
+		-o-transform: translateY(-20px);
+		-ms-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+	label {
+		color: #bbb;
+	}
+
+	.float-labels input:focus {
+	  border-color: #ccc;
+	  box-shadow: none;
+	}
+	.float-labels input:focus + label, 
+    .float-labels input:invalid + label  {
+	  color: rgba(248, 151, 29, 0.77);
+	  -webkit-transform: translateY(-20px);
+	  -moz-transform: translateY(-20px);
+	  -o-transform: translateY(-20px);
+	  -ms-transform: translateY(-20px);
+	  transform: translateY(-20px);
+	  -webkit-transition: all 500ms ease;
+	  -moz-transition: all 500ms ease;
+	  -ms-transition: all 500ms ease;
+	  -o-transition: all 500ms ease;
+	  transition: all 500ms ease;
+	  top: 14px;
+	  background: #211E1E;
+	}
