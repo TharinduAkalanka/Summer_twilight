@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/loging.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="col-xs-4 col-xs-push-4 martop50">
+            <div class="login-content">
+                <h4 class="text-center m-t-0 m-b-20">Administrator Loging</h4>
+                <form action="loging.php" method="POST" name="login_form" class="form-input-flat">
+                    <div class="form-group">
+                        <div class="float-labels">
+                            <div class="input-group">
+                                <span class="input-group-addon left"><i class="fa fa-fw fa-lg fa-user"></i></span>
+                                <input type="text" class="form-control input-lg" id="username" name="username">
+                                <label for="user">Username</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="float-labels">
+                            <div class="input-group">
+                                <span class="input-group-addon left"><i class="fa fa-fw fa-lg fa-lock"></i></span>
+                                <input type="password" class="form-control input-lg" id="password" name="password">
+                                <label for="user">Password</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row m-b-20">
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-default btn-lg btn-block" name="add">Log</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
